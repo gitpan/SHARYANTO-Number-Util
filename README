@@ -1,0 +1,45 @@
+NAME
+    SHARYANTO::Number::Util - Number utilities
+
+VERSION
+    version 0.56
+
+SYNOPSIS
+FUNCTIONS
+  format_metric($num, \%opts) => STR
+    Format $num using metric prefix, e.g.:
+
+     format_metric(14     , {base=>10});               # => "14"
+     format_metric(12000  , {base=> 2, precision=>1}); # => "11.7K"
+     format_metric(12000  , {base=>10, precision=>1}); # => "11.7Ki"
+     format_metric(-0.0017, {base=>10});               # => "1.7m"
+
+    Known options:
+
+    *   base => INT (either 2 or 10, default: 2)
+
+    *   precision => INT
+
+    *   i_mark => BOOL (default: 1)
+
+        Give "i" suffix to prefixes when in base 10 for K, M, G, T, and so
+        on.
+
+    None are exported by default, but they are exportable.
+
+SEE ALSO
+    Number formatting routines: Number::Format, Format::Human::Bytes,
+    Number::Bytes::Human.
+
+    https://en.wikipedia.org/wiki/Metric_prefix
+
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2013 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
+DESCRIPTION
