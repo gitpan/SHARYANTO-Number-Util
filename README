@@ -2,7 +2,7 @@ NAME
     SHARYANTO::Number::Util - Number utilities
 
 VERSION
-    version 0.56
+    version 0.57
 
 SYNOPSIS
 FUNCTIONS
@@ -25,21 +25,36 @@ FUNCTIONS
         Give "i" suffix to prefixes when in base 10 for K, M, G, T, and so
         on.
 
-    None are exported by default, but they are exportable.
-
 SEE ALSO
+    SHARYANTO
+
     Number formatting routines: Number::Format, Format::Human::Bytes,
     Number::Bytes::Human.
 
     https://en.wikipedia.org/wiki/Metric_prefix
 
+HOMEPAGE
+    Please visit the project's homepage at
+    <https://metacpan.org/release/SHARYANTO-Number-Util>.
+
+SOURCE
+    Source repository is at
+    <https://github.com/sharyanto/perl-SHARYANTO-Number-Util>.
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    <https://rt.cpan.org/Public/Dist/Display.html?Name=SHARYANTO-Number-Util
+    >
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
+
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2013 by Steven Haryanto.
+    This software is copyright (c) 2014 by Steven Haryanto.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.
 
-DESCRIPTION
