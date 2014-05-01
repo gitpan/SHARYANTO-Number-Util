@@ -2,7 +2,8 @@ NAME
     SHARYANTO::Number::Util - Number utilities
 
 VERSION
-    version 0.57
+    This document describes version 0.58 of SHARYANTO::Number::Util (from
+    Perl distribution SHARYANTO-Number-Util), released on 2014-05-01.
 
 SYNOPSIS
 FUNCTIONS
