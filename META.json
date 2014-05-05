@@ -53,7 +53,7 @@
          "web" : "https://github.com/sharyanto/perl-SHARYANTO-Number-Util"
       }
    },
-   "version" : "0.58",
+   "version" : "0.59",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.018002"

@@ -6,7 +6,7 @@ use strict;
 use utf8;
 use warnings;
 
-our $VERSION = '0.58'; # VERSION
+our $VERSION = '0.59'; # VERSION
 
 require Exporter;
 our @ISA       = qw(Exporter);
@@ -72,7 +72,7 @@ SHARYANTO::Number::Util - Number utilities
 
 =head1 VERSION
 
-This document describes version 0.58 of SHARYANTO::Number::Util (from Perl distribution SHARYANTO-Number-Util), released on 2014-05-01.
+This document describes version 0.59 of SHARYANTO::Number::Util (from Perl distribution SHARYANTO-Number-Util), released on 2014-05-05.
 
 =head1 SYNOPSIS
 
